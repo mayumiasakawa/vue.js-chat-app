@@ -52,7 +52,9 @@ export default {
     }
   },
   created(){
+    //オブザーバーの登録
     firebase.auth().onAuthStateChanged(user =>{
+      //ログイン状態ならuserが取得できるs
       this.user = user ? user: {}
       const ref_message = firebase.database().ref('message')
       if (user) {
