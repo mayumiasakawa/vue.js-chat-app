@@ -20,7 +20,7 @@
         <div class="item-detail">
           <div class="item-name">{{ name }}</div>
           <div class="item-message">
-            <nl2br tag="div" :text="message">
+            <nl2br tag="div" :text="message"/>
           </div>
         </div>
       </section>
