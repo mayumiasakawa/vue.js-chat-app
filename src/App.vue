@@ -67,7 +67,7 @@ export default {
   methods: {
     //ログイン処理
     doLogin(){
-      const provider = new firebase.auth.TwitterAuthProvier()
+      const provider = new firebase.auth.TwitterAuthProvider()
       firebase.auth().signInWithPopup(provider)
     },
     //ログアウト処理
