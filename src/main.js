@@ -5,7 +5,7 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
   // Your web app's Firebase configuration
-  var firebaseConfig = {
+  const firebaseConfig = {
     apiKey: "AIzaSyCtPlol0mcZsljhHM9EOO67M-3BKvEmy8s",
     authDomain: "chat-app-b699f.firebaseapp.com",
     databaseURL: "https://chat-app-b699f-default-rtdb.firebaseio.com",
